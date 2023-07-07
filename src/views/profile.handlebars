@@ -1,0 +1,21 @@
+  <h1>Tu perfil</h1>
+  <p>Nombre: {{user.first_name}} {{user.last_name}}</p>
+  <p>Email: {{user.email}}</p>
+  <p>Edad: {{user.age}}</p>
+  <strong>Rol: {{user.role}}</strong>
+
+  <a href="/users/logout"><h4>Logout</h4></a>
+
+  <div id="products">
+    <h2>Listado de Productos</h2>
+    {{#each allProducts}}
+    <div>
+      <ul>
+        <h3>{{allProducts.title}}</h3>
+        <p>Descripción: {{description}}</p>
+        <p>Precio: {{price}}</p>
+        <p>Cantidad: {{quantity}}</p>
+      </ul>
+    </div>
+    {{/each}}
+  </div>
