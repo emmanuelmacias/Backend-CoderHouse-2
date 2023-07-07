@@ -6,7 +6,7 @@ Repositorio de entregas de los desafios para el curso de Backend 2023 de CODERHO
 
 1. Clona este repositorio: `git clone https://github.com/emmanuelmacias/Backend-CoderHouse`
 2. Navega hasta el directorio del proyecto: `cd Backend-CoderHouse`
-3. Instala las dependencias: `npm install express mongoose mongoose-paginate-v2`
+3. Instala las dependencias: `npm install express mongoose mongoose-paginate-v2 bcrypt connect-mongo cookie-parser express-handlebars express-session passport passport-github2 passport-local socket.io`
 
 ## Uso
 
@@ -76,20 +76,14 @@ DELETE product || `http://localhost:8080/products/648a874963e84c58eb8a64c6`
 
 USER LOGIN
 
-
-
 ## Rutas
 
 1. Login / Register || `http://localhost:8080/views`
 
 2. Profile || `http://localhost:8080/views/profile`
 
-3. Register Github || `http://localhost:8080/views/register-github`
+3. Register Github || `http://localhost:8080/users/register-github`
 
-## ADMIN
-
-adminCoder@coder.com
-12345
 
 ## USER
 
